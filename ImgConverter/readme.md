@@ -16,6 +16,6 @@ For example, set factor = 125, and we get pic below:
 ![test](img\new_test125.jpg)
 
 Actually it's not a suitable factor for this case, hence we try to make it whiter.Set factor = 100, we get pic below:
-![test](img\new_test100.jpg)
+![test](https://github.com/daiwj5/Utility-gadgets/blob/master/ImgConverter/img/new_test100.jpg)
 
 Now we get a more clear assigment picture and we can finally hand it to our teacher!
