@@ -1,4 +1,4 @@
-# readme
+# VideoCatcher
 
 It's the first gadgets we push to our repo, and it can be used to read the video stream through specific ways.
 Here we show how to get our computer camera's data and write it to our file, which it's the simplest way.
