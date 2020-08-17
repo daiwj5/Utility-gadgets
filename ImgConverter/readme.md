@@ -19,3 +19,43 @@ Actually it's not a suitable factor for this case, hence we try to make it white
 ![new_test100](https://github.com/daiwj5/Utility-gadgets/blob/master/ImgConverter/img/new_test100.jpg)
 
 Now we get a more clear assigment picture and we can finally hand it to our teacher!
+
+# Usage
+
+* Installation of dependencies
+
+Numpy and opencv-python should be installed.
+```
+pip install -r requirements.txt
+```
+And the version of python should be **python3**.
+
+* Run
+
+There are two way to convert your iamges.
+First, run the script
+```
+> python3 ImgConverter.py
+Input image name your want to convert, eg：1.jpg. Your image: 
+```
+And then input your image name, it can be relative path and absolute path. After that, please input ther factor:
+```
+Input your conversion factor (0~255, white->black), eg：125. Your factor:
+```
+And it will convert your image and save as a copy at the path of the script **ImgConverter.py**
+
+The Second way to run the script is shown below:
+```
+usage: [python | python3] ImgConverter.py [option] [file 1] [file 2] ...
+```
+Options (only one)
+```
+-f [factor] : Set the factor, where factor show be a positive integer and the range of factor is [0, 255].
+```
+
+Example:
+```
+> python ImgConverter.py -f 101 test.jpg
+Converting~ test.jpg
+Save as new_test.jpg
+```
